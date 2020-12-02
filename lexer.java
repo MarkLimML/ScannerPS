@@ -2,10 +2,7 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-/*
- * Lexical analyzer for Scheme-like minilanguage:
- * (define (foo x) (bar (baz x)))
- */
+
 public class lexer {
     public static enum Type {
         GPR, FPR, KEYWORD, ERROR;
