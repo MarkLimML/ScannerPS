@@ -372,33 +372,6 @@ public class lexer {
         }
     }
 
-
-    // public static List<Token> lex(String input) {
-    //     List<Token> result = new ArrayList<Token>();
-    //     for(int i = 0; i < input.length(); ) {
-    //         switch(input.charAt(i)) {
-    //         case '(':
-    //             result.add(new Token(Type.LPAREN, "("));
-    //             i++;
-    //             break;
-    //         case ')':
-    //             result.add(new Token(Type.RPAREN, ")"));
-    //             i++;
-    //             break;
-    //         default:
-    //             if(Character.isWhitespace(input.charAt(i))) {
-    //                 i++;
-    //             } else {
-    //                 String atom = getAtom(input, i);
-    //                 i += atom.length();
-    //                 result.add(new Token(Type.ATOM, atom));
-    //             }
-    //             break;
-    //         }
-    //     }
-    //     return result;
-    // }
-
     public static void main(String[] args) {
         try {
             File file = new File("input.txt");
