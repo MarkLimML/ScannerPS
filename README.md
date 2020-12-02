@@ -1,5 +1,7 @@
 # ScannerPS
 
+# Mark Louis Lim
+
 Instructions:
  1) Download the repo and extract zip file
  2) Java 8 or higher is required
